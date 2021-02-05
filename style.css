@@ -1,0 +1,71 @@
+.tesla-name {
+        font-family: "Tesla"; src: url( '../fonts/TESLA.ttf' );
+        color: black;
+}
+
+.nav-link {
+    color: black;
+    font-family: "Gotham Medium"; src: url( '../fonts/Gotham Medium.ttf' );
+}
+
+.car-links {
+    display: flex;
+    justify-content: center;   
+}
+
+.rightside-links {
+    width: 20%;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.model-s {
+    background-image: url('images/model-s-background.jpeg');
+    background-size: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    color: black;
+
+}
+
+.custom-order-button {
+    background-color: rgba(0, 0, 0, 0.400);
+    color: white;   
+}
+
+.learn-more-button {
+    background-color: rgba(255, 255, 255, 0.400);
+}
+
+a {
+    color: black;
+    
+}
+
+button {
+    border-radius: 100px;
+    padding: 10px 75px;
+    font-size: 12px;
+    margin: 0px 20px 0px 20px;
+    border: none;
+    font-family: "Gotham Medium"; src: url( '../fonts/Gotham Medium.ttf' );
+}
